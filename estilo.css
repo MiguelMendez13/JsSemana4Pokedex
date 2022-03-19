@@ -1,0 +1,88 @@
+.pokedex{
+    width: 80%;
+    height: 80%;
+    display:flex;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8%;
+    background-color: red;
+    margin-left: 10%;
+}
+
+.pokedex .botonAzul{
+    width: 8%;
+    height: 15%;
+    display:flex;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 100%;
+    background-color: blue;
+    left: 10%;
+    top: 3%;
+}
+.pokedex .botonRojo{
+    width: 2%;
+    height: 3.25%;
+    display:flex;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 100%;
+    background-color: red;
+    left: 20%;
+    top: 3%;
+}
+.pokedex .botonAmarillo1{
+    width: 2%;
+    height: 3.25%;
+    display:flex;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 100%;
+    background-color: yellow;
+    left: 25%;
+    top: 3%;
+}
+.pokedex .botonAmarillo2{
+    width: 2%;
+    height: 3.25%;
+    display:flex;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 100%;
+    background-color: yellow;
+    left: 30%;
+    top: 3%;
+}
+
+.pokedex .marcoPantalla{
+    width: 40%;
+    height: 40%;
+    display:flex;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    background-color: gray;
+    left: 10%;
+    top: 25%;
+
+}
+
+.marcoPantalla .pantalla{
+    width: 80%;
+    height: 80%;
+    display:flex;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    background-color: white;
+    left: 9%;  
+    top: 6%;
+
+}
+
+
