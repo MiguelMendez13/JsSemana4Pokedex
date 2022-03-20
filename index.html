@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-
+    <!--    <META http-equiv="REFRESH" content="2; url=file:///home/friky/Documents/pokedex/index.html"> -->
 
 <link rel="stylesheet" type="text/css" href="estilo.css">
+<script src="pokedex.js"></script>
+
+
 </head>
 <body>
     <div class="pokedex">
@@ -15,13 +18,49 @@
         <div class="botonAmarillo2"></div>
         <div class="marcoPantalla">
             <div class="pantalla">
-
+                <img src="pokebola.png" class="imagenPokemon" id="pokeImg">
             </div>
         </div>
         <div class="botonNegro">
+            <button class="botonBuscar" onclick="fetchPokemon()">B</button>
+        </div>
+        <div class="pantallita">
+            <input type="text" id="pokeName" class="textoPokemonBuscar">
+        </div>
+        <div class="cruceta"></div>
+
+
+
+
+        <div class="pantallaStatus">
+            <div class="idPokemon" id="idPokemon">
+                ID: 
+            </div>
+            <div class="tipo" id="tipo">
+                Tipo:
+            </div>
+            <div class="habilidades" id="habilidades">
+                <select name="habilidadesSelect">
+                    <option>Habilidades</option>
+                </select>
+            </div>
+            <div class="movimientos" id="movimientos">
+                <select name="movimientossSelect">
+                    <option>Movimientos</option>
+                </select>
+            </div>
         </div>
 
-    
+        
+        <div class="pantallaAltura" id="pantallaAltura">
+            Altura: 00.00
+        </div>
+        
+        <div class="pantallaPeso" id="pantallaPeso"> 
+            Peso: 00.00
+        </div>
+
+
 
     </div>    
 </body>

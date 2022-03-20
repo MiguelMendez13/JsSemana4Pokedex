@@ -82,7 +82,137 @@
     background-color: white;
     left: 9%;  
     top: 6%;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.pantalla .divImagenPokemon{
+    height: 100%;
+}
+.imagenPokemon{ 
+    height: 100%;
+}
+/*.imagenPokemon{
+    height: 250%;
+    clip-path: inset(30% 30% 30% 30%);
+}*/
+
+
+.pokedex .botonNegro{
+    left: 9%;
+    top: 80%;
+    width: 5%;
+    height: 12%;
+
+    display:flex;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+.botonNegro .botonBuscar{
+    width: 100%;
+    width: 100%;
+    color: white;
+    border-radius: 50%;
+    background-color: black;
+    font-weight: bold;
 
 }
 
 
+
+.pokedex .pantallita{
+    left: 20%;
+    top: 80%;
+    width: 19%;
+    height: 12%;
+
+    display:flex;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    background-color: green;
+
+}
+.pantallita .textoPokemonBuscar{
+    width: 100%;
+    height: 90%;
+    font-size: large;
+    background-color: green;
+    font-weight: bold;
+    /*color: red;*/
+
+}
+
+
+
+.pokedex .cruceta{
+    left: 46%;
+    top: 80%;
+    width: 5%;
+    height: 12%;
+
+    display:flex;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    background-color: black;
+
+}
+
+
+.pokedex .pantallaStatus{
+    padding: 1%;
+    left: 60%;
+    top: 15%;
+    width: 30%;
+    height: 30%;
+
+    display:flex;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    background-color: green;
+    flex-direction: column;
+    
+
+}
+
+
+.pokedex .pantallaAltura{
+    left: 60%;
+    top: 80%;
+    width: 13%;
+    height: 10%;
+
+    display:flex;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    background-color: green;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+
+}
+.pokedex .pantallaPeso{
+    left: 77%;
+    top: 80%;
+    width: 13%;
+    height: 10%;
+
+    display:flex;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    background-color: green;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+
+}
